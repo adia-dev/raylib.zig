@@ -1,0 +1,11 @@
+.{
+    .name = "raylib-zig",
+    .version = "4.6.0-dev",
+
+    .dependencies = .{
+        .raylib = .{
+            .url = "https://github.com/raysan5/raylib/archive/master.tar.gz",
+            .hash = "1220e083600af4aa5e5d33656f38a16bcdb7bcb97c61f726eaf8769d1ff21ed6a5f8",
+        }
+    }
+}
